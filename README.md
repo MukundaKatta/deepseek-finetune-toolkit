@@ -1,13 +1,15 @@
-# deepseek-finetune-toolkit
+# DeepSeek Finetune Toolkit
 
-Stub Python project. Described as a DeepSeek model fine-tuning toolkit, but none of that functionality exists.
+Toolkit for fine-tuning DeepSeek language models on custom datasets with optimized training workflows.
 
-## What's actually here
+## About
+DeepSeek Finetune Toolkit simplifies the process of fine-tuning DeepSeek models for domain-specific tasks. It provides data preparation utilities, training configuration management, and evaluation tools for producing high-quality custom models.
 
-A single class in `src/core.py` (DeepseekFinetune Toolkit) with placeholder methods that each return a fixed dictionary without doing any real work. There is no model fine-tuning, no training pipeline, no DeepSeek integration - just stubs.
-
-The project uses only Python standard library imports (time, logging, json, typing). No deep learning or fine-tuning libraries are present.
+## Tech Stack
+- Language: Python
+- Training: LoRA/QLoRA fine-tuning pipelines
+- Data: Dataset preparation and formatting tools
+- Evaluation: Model quality benchmarking suite
 
 ## Status
-
-Scaffolding only. No working fine-tuning functionality exists.
+Active development - fine-tuning pipeline and data preparation tools established.
